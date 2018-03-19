@@ -2,7 +2,7 @@ class Room
 
   attr_reader :number, :occupants, :playlist
 
-  def initialize(room_number, new_playlist) #new_occupant
+  def initialize(room_number, new_playlist) #new_occupant?
     @number = room_number
     @occupants = []
     @playlist = new_playlist #[]
